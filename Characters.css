@@ -90,8 +90,6 @@ th
 {
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 50px;
-  padding-right: 50px;
   font-family: Optima, serif;
 }
 
@@ -100,6 +98,12 @@ td
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 7px;
+}
+
+table
+{
+  table-layout: fixed;
+  width: 100%;  
 }
 /* Table formating - End */
 
