@@ -1,0 +1,118 @@
+body 
+{
+  background-image: url(Images/Inazuma.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Garamond, serif;
+}
+
+.Logo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  margin-bottom: 0px;
+  width: 22%;
+}
+
+/* Navigation bar formatting - Start */
+.navbar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(139, 112, 194, 0.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+.navbar li
+{
+  float: left;
+}
+
+.navbar li a
+{
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover
+{
+  background-color: #ab9cc9;
+}
+/* Navigation bar formatting - End */
+
+div 
+{
+  background-color: rgba(242, 242, 242, 0.8);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.leftcolumn
+{
+  float: left;
+  width: 50%;
+  margin-left: 8.5%;
+}
+
+.rightcolumn
+{
+  position:fixed;
+  width: 14%;
+  right: 8.5%;
+  top: 29%;
+}
+
+#contentheader
+{
+  text-align: center;
+}
+
+span
+{
+  font-weight: bold;
+  /* Applies to "Exploration" list items. */
+}
+
+.invis
+{
+  list-style: none;
+  /* Sets bullet points to be invisible. */
+} 
+
+#center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Only applies to the last image on the page. */
+}
+
+#ayaka
+{
+  margin-left: 10px;
+}
+
+.format
+{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  /* Used to format "Exploration" list images. */
+}
+
+.linebreak
+{
+  display:block;
+  margin-top: 1em;
+  /* Used to format line breaks. */
+}
